@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    margin: 0%; padding: 0%;
+}
+#logo1{
+    display: inline-flex;
+    width: 100%; height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 14px 0px 10px;
+}
+.logo{
+    display: flexbox;
+    margin-left: 15px;
+}
+.logo img{
+    min-width: 100px;
+    width: 200px;
+    margin-left: 20px;
+    
+}
+.search-1{
+    display: flex; gap: 0.54em;
+    flex-direction: column;
+     margin-right: 3em; width: 620px;
+}
+.bgpart-1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%; gap: 5px;
+    width: 100%;
+}
+.bgpart input{
+    background-color: transparent;
+    height: auto; min-height: 40px;
+    color: #444; border: 1px solid #b0b0b0; width: 100%;
+    max-width: 100%; padding: 3px 9px 3px 9px;
+    letter-spacing: normal; border-right: 5px; border-radius: 0.3em;
+    word-spacing: normal;
+}
+.smllpart{
+    display: inline-flex;
+    align-content: center;
+    justify-content: flex-end; gap: 20px;
+}
+#nav-section{
+    display: block;
+    max-width: 100%; height: 50px;
+    background-color: #913b3f;
+    position: sticky; top: 0px;
+    z-index: 1;
+}
+.first{
+    display: inline-flex;
+    align-items: center; gap: 0.9em;
+    max-width: 100%; width: 65%;
+    vertical-align: middle; padding: 0px 14px 0px 10px;
+    height: 50px; min-height: 40px;
+    margin-left: 42px;
+}
+.first li{
+    list-style: none;
+    color:#ffffff;
+}
+.first a{
+    text-decoration: none;
+    color: #ffffff; font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+}
+.fin-head{
+    display: block; min-height: 390px;
+    max-width: 100%;
+    background-image: url(https://study.lancaster.edu.gh/wp-content/uploads/2022/05/Lancaster-University-Ghana-UK-University-Banner-Copy-800x418.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 0px;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    padding-left: 25px;
+    max-width: 53%; height: 300px;
+    background-color: rgb(254, 254, 254, 0.45);
+    position: absolute;
+    top: 14px; left: 30px;
+}
+
+.cover h1{
+    font-size: 32px; margin-top: 33px;  
+    color: #111111;
+    font-family: sans-serif; font-weight: 400;
+
+}
+.only{
+    color: #111111; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px; line-height: 25px;
+}
+/* .hmm{
+    width: 400px;
+} */
+.cover a{
+    border: 0px solid ;
+    background: #9e4f53;
+    color: #fff; width: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none; font-weight: 500;
+    border-radius: 5px; padding: 17px 30px;
+    height: 100px;
+}
+.container{
+    width: 100%; height:100%;
+    max-width: 1440px; padding: 1em;
+    display: flex; gap: 2.5em;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #324147;
+}
+.container > span{
+    color: #ffffff;
+    font-size: 21px; margin-top: 15px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 50px;
+
+}
+.container p{
+    color: #ffffff;
+    margin-left: 48px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.new-content{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex; gap: 1.5em;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1em;
+}
+.provost, .info-c, .info-p{
+    display: grid;
+    position: relative;
+}
+.provost img, .info-c img, .info-p img{
+    min-height: 350px; max-width: 350px;
+    height: auto; position: relative;
+}
+.provost span, .info-c span, .info-p span{
+    position: absolute; bottom: 0px;
+    border: 0px solid; width: 100%; padding: 15px 0px 8px 15px;
+    height: 110px; display: flex; align-items: center;
+    justify-content: space-around; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #efefef; font-size: 22px;
+}
+.another-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px; padding-bottom: 50px;
+}
+.text{
+    display: flex; flex-direction: column;
+    gap: 1.5em;
+    max-width: 50%; min-height: 100%;
+    font-size: 14px;
+    line-height: 21px;
+}
+.text h2{
+    font-size: 36px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1; font-weight: 400;
+    color:#555656; letter-spacing: 1.2px;
+}
+.text .me{
+    font-size: 13px;
+    line-height: 1.74;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttom-p{
+    display: flex;
+    align-items: center;
+    width: 350px; max-width: 50%;
+    justify-content: left;
+    
+}
+.buttom-p a{
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7d3135;
+    padding: 1em 1.5em; border-radius: 5px;
+    
+}
+.cont-flow{
+    display: block;
+    justify-content: space-between;
+    position: relative;
+    width: 1220px;
+    
+}
+.ano-section{
+    position: relative;
+    background-color: #efefef;
+    width: 100%; height: 700px;
+    display: flex; flex-direction: column;
+    gap: 2em;
+}
+.arrange{
+    /* display: flex; min-height: 300px;
+    flex-basis: 5;
+    flex-direction: row;
+    flex-flow: wrap; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1em;
+    row-gap: 5em;
+    margin-left: 70px;
+
+}
+.arrange img{
+    width: 200px; height: 120px;
+ 
+}
+.arrange h2{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #111111;
+}
+.eii{
+    display: flex; text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400; line-height: 1;
+    letter-spacing: 1.2px;
+    margin-left: 70px; padding-top: 2em;
+    color:#555656;
+    
+}
+.also-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 450px;
+}
+.also-sec img{
+    height: 350px;
+    /* margin-left: 60px; */
+}
+.div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 60px; font-size: 14.5px;
+    width: 55%; gap: 4em; height: 450px;
+    line-height: 1.4; font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.div-text a{
+    background-color: #b5121b;
+    padding: 1em 1.5em; border-radius: 5px;
+    text-decoration: none; color: #efefef;
+}
+.card{
+    display: block;
+    background-color: #efefef;
+    width: 100%; height: 596px;
+    position: relative;
+}
+.news{
+    display: flex; text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400; line-height: 1;
+    letter-spacing: 1.2px;
+    margin-left: 70px; padding-top: 2em; padding-bottom: 2em;
+    color:#555656; font-family: sans-serif;
+}
+.card-wrap a{
+    text-decoration: none;
+    font-size: 20px; color: #111111;
+    font-weight: 300; line-height: 1.2;
+    font-family: sans-serif;
+}
+.card-wrap p{
+    padding: 2em;
+}
+.card-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #eaeaea;
+    margin-left: 18px;
+   
+}
+.card-wrap img{
+     width: 250px;
+     height: 169px;
+}
+.card-wrap div{
+    width: 250px;
+    height: 400px;
+    color: #efefef;
+    box-shadow: 0px 4px 20px 0px rgb(0, 0, 0, 0.2);
+}
+.f-container{
+    background-color: #555656;
+    display: flex;  justify-content: space-evenly;
+    width: 100%;
+    height: 610px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+.one ul{
+    padding-left: 0%;
+}
+.one ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.one a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 2em; color: #ffffff;
+}
+.contrl{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.three{
+    display: flex;
+    flex-direction: column; gap: 2rem;
+    color: #ffffff;
+}
+.gha, .nig{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: rgb(204, 204, 204);
+}
+.f a{
+    text-decoration: none;
+    color: #b5121b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
